@@ -3,7 +3,7 @@
     "path": "C:/Users/damon/Dropbox/seniority-project/code/indiv-analysis_descriptives.R",
     "project_path": "code/indiv-analysis_descriptives.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "2969231352",
     "contents": "",
     "dirty": false,
     "created": 1601405371190.0,
@@ -11,15 +11,15 @@
     "relative_order": 5,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "37,0",
-        "scrollLine": "14"
+        "cursorPosition": "19,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1601412085,
+    "lastKnownWriteTime": 1601414160,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1601412085540,
+    "last_content_update": 1601414160991,
     "read_only": false,
     "read_only_alternatives": []
 }

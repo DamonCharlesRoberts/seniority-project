@@ -1,12 +1,12 @@
 {
-    "id": "882A1A3A",
+    "id": "A7310398",
     "path": null,
     "project_path": null,
     "type": "r_dataframe",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1601411472933.0,
+    "created": 1601413086734.0,
     "source_on_save": false,
     "relative_order": 8,
     "properties": {
@@ -15,18 +15,18 @@
         "totalObservations": "18635",
         "displayedObservations": "18635",
         "variables": "15",
-        "cacheKey": "6C15A933",
+        "cacheKey": "58842C5A",
         "object": "agedata",
         "environment": "",
-        "contentUrl": "grid_resource/gridviewer.html?env=&obj=agedata&cache_key=6C15A933&max_cols=50",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=agedata&cache_key=58842C5A&max_cols=50",
         "preview": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1601409394,
+    "lastKnownWriteTime": 7215364875350968876,
     "encoding": "",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1601411472933,
+    "last_content_update": 1601413086734,
     "read_only": false,
     "read_only_alternatives": []
 }

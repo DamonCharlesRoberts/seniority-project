@@ -9,9 +9,14 @@
 
 #### Setup ####
 here::here()
-read.csv('data/volden-renamed-HOR.csv')
-read.csv('data/volden-renamed-SEN.csv')
-
+hor <- read.csv('data/volden-renamed-HOR.csv')
+sen <- read.csv('data/volden-renamed-SEN.csv')
+agedata <- read.csv('data/agedata.csv')
+agedata <- agedata %>%
+  mutate(
+    case_when(chamber == 'house' ~ 1,
+              chamber == 'senate' ~ 0)
+  )
 
 #### Descriptives ####
 
@@ -28,10 +33,11 @@ indivsenPlot <- ggplot(sen, aes(x = currterms)) +
 senPlot
 ggsave('figures/Individual-Terms-Dist-SEN.png')
 
-indivhoragePlot <- ggplot(agedata, aes(x = age)) +
-  geom_density(fill = '#BCAAA4', color = '#3E2723', alpha = 0.8) +
-  ggtitle('Distribution of Age in Congress') +
-  theme_ipsum()
-indivhoragePlot
-ggsave('figures/Individiaul-Age-Dist.png')
 
+ageplot <- agedata %>%
+  ggplot(aes(x = age, group=chamber, fill=chamber)) +
+  geom_density(adjust=1.5, alpha=.4) +
+  theme_minimal() +
+  scale_fill_manual(values = c('#FFC107','#37474F'))
+ageplot
+ggsave('figures/Individual-Age-Dist.png')
