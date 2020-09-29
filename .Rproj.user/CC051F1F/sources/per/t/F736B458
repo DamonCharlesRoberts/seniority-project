@@ -3,9 +3,9 @@
     "path": "C:/Users/damon/Dropbox/seniority-project/code/indiv-merging.R",
     "project_path": "code/indiv-merging.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "698667271",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1601399252285.0,
     "source_on_save": false,
     "relative_order": 3,
@@ -15,11 +15,11 @@
         "scrollLine": "8"
     },
     "folds": "",
-    "lastKnownWriteTime": 1601411408,
+    "lastKnownWriteTime": 1601416818,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1601413185678,
+    "last_content_update": 1601416818122,
     "read_only": false,
     "read_only_alternatives": []
 }

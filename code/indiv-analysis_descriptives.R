@@ -38,6 +38,7 @@ ageplot <- agedata %>%
   ggplot(aes(x = age, group=chamber, fill=chamber)) +
   geom_density(adjust=1.5, alpha=.4) +
   theme_minimal() +
-  scale_fill_manual(values = c('#FFC107','#37474F'))
+  scale_fill_manual(values = c('#FFC107','#37474F')) +
+  ggtitle('Distribution of Age in Congress')
 ageplot
 ggsave('figures/Individual-Age-Dist.png')

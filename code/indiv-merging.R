@@ -32,3 +32,5 @@ convertData <- read.csv('data/mccrain-id-conversion/bioguide_icpsr_crosswalk.csv
 ageData <- read.csv('data/fivethirtyeight-age/fivethirtyeight-mc-age.csv')
 
 agedata <- left_join(ageData, convertData, by='bioguide')
+
+write_csv(agedata, 'data/agedata.csv')
