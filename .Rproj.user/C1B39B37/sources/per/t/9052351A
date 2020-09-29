@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1601396337069.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "188692010",
+    "id" : "9052351A",
+    "lastKnownWriteTime" : 1601396291,
+    "last_content_update" : 1601396291,
+    "path" : "~/Dropbox/seniority-project/code/setup-file.R",
+    "project_path" : "code/setup-file.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

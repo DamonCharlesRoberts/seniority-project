@@ -1,0 +1,45 @@
+#### Title: Seniority Project - Setup ####
+
+#### Notes: ####
+  ### Descritpion: Load relevant packages and datasets for the Seniority Project ###
+
+#### Files: ####
+  ### In: brookings-agg-*.csv ###
+  ### Out: NA ###
+
+#### Load packages ####
+setup <- function(){
+  library(haven)
+  library(tidyverse)
+  library(plyr)
+  library(readr)
+  library(plotly)
+  library(hrbrthemes)
+  library(latticeExtra)
+  library(plotrix)
+  library(RColorBrewer)
+  library(xts)
+  library(dygraphs)
+  library(lubridate)
+  library(readxl)
+  here::here()
+}
+
+loadBrookingshor <- function(){
+  horAgg <- read.csv('data/brookings-agg/brookings-agg-hor.csv')
+}
+loadBrookkingssen <- function(){
+  senAgg <- read.csv('data/brookings-agg/brookings-agg-sen.csv')
+}
+loadStewarthor <- function(){
+  stewartHOR <- read.csv('data/stewart-woon-merged-HOR.csv')
+}
+loadStewartsen <- function(){
+  stewartSEN <- read.csv('data/stewart-woon-merged-SEN.csv')
+}
+loadvoldenhor <- function(){
+  voldenHOR <- read_excel('data/volden-wiseman/CELHouse93to115.xlsx')
+}
+loadvoldensen <- function(){
+  voldenSEN <- read_excel('data/volden-wiseman/CELSenate93to115.xlsx')
+}
