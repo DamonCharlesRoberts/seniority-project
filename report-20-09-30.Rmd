@@ -16,12 +16,14 @@ here::here()
 \section{Important Notes}
 \subsection{Data Sources}
 * [Brookings' Vital Statistics on Congress](https://www.brookings.edu/multi-chapter-report/vital-statistics-on-congress/)
-* [Volden and Woon's Data on House and Senate Legislative Effectiveness](https://thelawmakers.org/data-download)
+* [Volden and Wiseman's Data on House and Senate Legislative Effectiveness](https://thelawmakers.org/data-download)
 * [FiveThirtyEight's Age of MC's over time data](https://github.com/fivethirtyeight/data/tree/master/congress-age)
 
 \subsection{Theory}
 
 Seniority does not necessarily imply that the particular MC is important for the success of the party in electoral and legislative outcomes. Other factors such as having an electoral-stronghold in their respective districts, legislative effectiveness, media coverage, etc. are all incentives for the parties to move away from the seniority rule (perhaps why it was done in the 1970's - some argue that it was to further help with the strengthening of parties in insitutions).
+
+\newpage
 
 \section{What I've found so far}
 
@@ -29,18 +31,25 @@ Seniority does not necessarily imply that the particular MC is important for the
 
 ![Age Distributions by Chamber](C:/Users/damon/Dropbox/seniority-project/figures/Individual-Age-Dist.png)
 
+\newpage
 
 \subsection{Both chambers are getting older over time (?)}
 
 ![Age over time](C:/Users/damon/Dropbox/seniority-project/figures/age-over-time.png)
 But this may be changing(?).
 
+\newpage
+
 \subsection{MC's Spend Less Time in the House}
 
 ![Term Length Distributions by Chamber](C:/Users/damon/Dropbox/seniority-project/figures/terms-by-chamber.png)
 
+\newpage
+
 \subsection{Volitile Term Lengths Over Time}
 ![Term length Over Time by Chamber](C:/Users/damon/Dropbox/seniority-project/figures/term-time-plot.png)
+
+\newpage
 
 \subsection{Preliminary Analyses}
 
@@ -51,4 +60,5 @@ There are undoubtedly many other explanations that may better explain this relat
 I also use Congressional Session fixed effects to get a "within" comparison. 
 
 ![Table 1.](C:/Users/damon/Dropbox/seniority-project/figures/table1.pdf)
-These preliminary results show an interesting dynamic. Column 2 is the model for the senate and column 1 is the House of Representatives model. We see here that the term length of a Senator is not a statistically significant predictor for a leadership role whereas in the House it is! This is an interesting and I believe an important difference between the two institutions and may shed light into their calculus.
+
+These preliminary results (__Table 1.__) show an interesting dynamic. Column 2 is the model for the senate and column 1 is the House of Representatives model. We see here that the term length of a Senator is not a statistically significant predictor for a leadership role whereas in the House it is! This is an interesting and I believe an important difference between the two institutions and may shed light into their calculus.

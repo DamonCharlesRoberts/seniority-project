@@ -39,4 +39,4 @@ stargazer::stargazer(ols.sen.1, type = 'text')
 fe.sen.1 <- plm(totallead ~ currterms + dem + female + legeffictive + percent_vote, data = sen, index = c('congress'), model = 'within')
 stargazer::stargazer(fe.sen.1, type = 'text')
 
-table1 <- stargazer::stargazer(fe.hor.1, fe.sen.1, type = 'text', title = 'Fixed Effects of Term Lengths on Leadership', out = 'figures/table1.txt')
+table1 <- stargazer::stargazer(fe.hor.1, fe.sen.1, type = 'html', title = 'Fixed Effects of Term Lengths on Leadership', out = 'figures/table1.html')
