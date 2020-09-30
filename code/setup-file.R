@@ -22,6 +22,7 @@ setup <- function(){
   library(dygraphs)
   library(lubridate)
   library(readxl)
+  library(plyr)
   here::here()
 }
 
@@ -42,4 +43,7 @@ loadvoldenhor <- function(){
 }
 loadvoldensen <- function(){
   voldenSEN <- read_excel('data/volden-wiseman/CELSenate93to115.xlsx')
+}
+loadfivethrityeight <- function(){
+  age538data <- read.csv('data/fivethirtyeight-age/fivethirtyeight-mc-age.csv')
 }

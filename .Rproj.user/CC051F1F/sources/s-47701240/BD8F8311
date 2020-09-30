@@ -3,22 +3,22 @@
     "path": "C:/Users/damon/Dropbox/seniority-project/code/setup-file.R",
     "project_path": "code/setup-file.R",
     "type": "r_source",
-    "hash": "508565574",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1601392734482.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
-        "cursorPosition": "44,1",
-        "scrollLine": "25"
+        "cursorPosition": "32,14",
+        "scrollLine": "18"
     },
     "folds": "",
-    "lastKnownWriteTime": 1601405367,
+    "lastKnownWriteTime": 1601429531,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1601405367453,
+    "last_content_update": 1601429531736,
     "read_only": false,
     "read_only_alternatives": []
 }
