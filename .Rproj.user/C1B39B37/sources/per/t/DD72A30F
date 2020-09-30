@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1601480618918.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2261473212",
+    "id" : "DD72A30F",
+    "lastKnownWriteTime" : 1601480724,
+    "last_content_update" : 1601480724723,
+    "path" : "~/Dropbox/seniority-project/report-20-09-30.Rmd",
+    "project_path" : "report-20-09-30.Rmd",
+    "properties" : {
+        "cursorPosition" : "26,88",
+        "scrollLine" : "22"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
