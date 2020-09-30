@@ -14,3 +14,4 @@
 --- 
 
 Code, figures, and data for a project on United States Congressional Seniority in my American Political Institutions Seminar.
+__For most recent updates, see 'reports' folder and most recently dated is the current status of the project__
