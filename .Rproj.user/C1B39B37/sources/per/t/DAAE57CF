@@ -1,0 +1,26 @@
+{
+    "id": "DAAE57CF",
+    "path": "~/Dropbox/seniority-project/code/1_setup-file.R",
+    "project_path": "code/1_setup-file.R",
+    "type": "r_source",
+    "hash": "233200380",
+    "contents": "",
+    "dirty": false,
+    "created": 1602977541699.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "27,2",
+        "scrollLine": "12"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1604631091,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1604631091635,
+    "read_only": false,
+    "read_only_alternatives": []
+}

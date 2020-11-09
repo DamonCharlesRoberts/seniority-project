@@ -1,9 +1,9 @@
 {
-    "path" : "~/Dropbox/seniority-project",
-    "sortOrder" : [
+    "path": "~/Dropbox/seniority-project/figures",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }

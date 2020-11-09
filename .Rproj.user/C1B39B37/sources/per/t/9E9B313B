@@ -1,0 +1,26 @@
+{
+    "id": "9E9B313B",
+    "path": "~/Dropbox/seniority-project/code/7_preliminary-analyses.R",
+    "project_path": "code/7_preliminary-analyses.R",
+    "type": "r_source",
+    "hash": "775637797",
+    "contents": "",
+    "dirty": false,
+    "created": 1602977545975.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "26,45",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1601646958,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1601646958,
+    "read_only": false,
+    "read_only_alternatives": []
+}

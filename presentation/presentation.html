@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>The new kids are on the block:</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Damon C. Roberts - University of Colorado Boulder" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# The new kids are on the block:
+## Incentives for congressional caucuses to disregard seniority in leadership assignments
+### Damon C. Roberts - University of Colorado Boulder
+
+---
+
+
+
+
+
+
+# The Puzzle:
+
+* Scholars propose that the (now) informal seniority system works as a useful heuristic for the caucus to elect more senior members (see Taylor, 2019)
+  * This has a number of assumptions tied to it.
+* This project seeks to test whether these assumptions hold and whether the strict definition of a heuristic applies here.
+
+---
+
+# What the Literatue Says
+
+* First, what do caucuses look like in Congress?
+  * Some had argued that parties mattered very little in shaping MC behavior (Mayhew 1974; Aldrich 1995, 2011; Krehbiel 1991)
+  * Others have argued that they are more powerful (Rohde 1991; Cox and McCubbins 2005)
+
+---
+
+* Second, what motivations to MC's and the collective have?
+  * Fenno says that they have three goals:
+    * Reelection
+    * Achieve more power
+    * Good policy
+  * Mayhew states that they are primarily concerned with reelection
+  * The caucus has goals to ensure that they retain majority status (Rohde 1991)
+
+---
+
+* Third, what does the seniority system look like and what is its utility?
+  * Seniority is a good thing in congress - increases information (Krehbiel 1991)
+  * Can also build coalitions with seniority to achieve individual goals (Taylor, 2019)
+
+---
+
+* Reasons to believe there are other factors at play here
+  * If information is important, we know that MC's satisfice and have a number of opportunities to pool information that isn't entirely related to their time in Congress (Austen-Smith 1993, Hall and Deardorff 2006, McCrain 2018).
+  
+---
+
+* Reasons to believe there are other factors at play here
+  * It doesn't *really* help electorally: 
+    * Voters seem to not rally care about relative seniority of their representative (McKelvey and Riezman 1992).
+    * Voters look at tangible benefits provided to their district, things that are easy to know where they come from and how they are beneficial to the area (Ansolabehere and Pettigrew 2014).
+    * Do not have too much more bargaining power because you are senior (Kellerman and Shepsle 2009).
+    * Voters tend to also support those who are ideologically extreme (Utych 2019). Implying more moderate and senior MC's, who may better build bipartisan coalitions, with all else equal, do not benefit electorally.
+
+---
+
+# What I argue
+
+* Seniority can be helpful in many situations but not all. 
+* There is some endogeneity here.
+* Leadership positions are a bargain (Rubenstein Infinite Horizon Solution Concept)
+* Those who provide benefits that are assumed to be perfectly correlated with more experience in Congress can rise to power without being more senior.
+  * For example, a young democrat like AOC may signal the Democrat's willingness to embrace young politicians and activists
+  * Another example, Lawyers and/or former lobbyists, academics, and policy experts who have relevant and a deep understanding of a particular and relevant area to a policy issue within a committee's jurisdiction
+  
+---
+
+# Empirically What Does Congress Look Like (Eventual Empirical Analysis)
+
+---
+
+![number of terms over time](term-time-plot.png)
+
+---
+
+![age over time in congress](age-over-time.png)
+
+
+---
+
+![term years with leadership position](avg-house-seniority-macro.png)
+
+
+---
+
+# Questions/Comments?
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
