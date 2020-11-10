@@ -22,6 +22,7 @@
 \usepackage{float}
 \newtheorem{hypothesis}{Hypothesis}
 \newtheorem{nullhypothesis}{Null Hypothesis}
+\usepackage{tikz}
 %---Set up author and title page
 \singlespace
 \title{The new kids are on the block: incentives for congressional caucuses to disregard seniority in leadership assignments}
@@ -76,6 +77,74 @@ The literature has provided a useful foundation for which to build a theory of s
 
 \section*{Incentives For Caucus Leadership To Fink On Seniority}
 
+To begin the discussion, I first outline a number of benefits an individual may bring to the caucus to convince them of their value in an assignment. The first benefit may be that individuals may bring electoral advantage to the caucus in a number of ways. The common thread for which they may do this is dependent on a demographic of voter that the party is vying for. For example, both parties seem to be vying for more ideologically extreme candidates in the House of Representatives. Some have argued and provided some empirical evidence indicating that more ideological candidates are more popular among the public, on both sides \cite{Utych2019}. Candidates may also be descriptively aligned with the party or their interests and may be alluring to the party in that way. 
+
+A second benefit that candidates may provide is policy expertise from prior experience. Parties are not only concerned about reelecting their members. Good public policy is indirectly beneficial to electoral chances of caucus members but they also help build a platform for the party which may help grow the influence of the party across a number of offices at the state level and other levels of the Federal government such as the Senate or the Presidency. If a newly minted representative seeks an assignment and can demonstrate a deep wealth of knowledge for that assignment's jurisdiction, they may prove themselves to be an asset for the party. Moreover, this benefit of expertise increases once one considers how miserly MC's are when it comes to information as discussed in the review of the literature above. Therefore, prior experience with the policy, pre-established networks with bureaucrats or other policy experts, and knowledge about industry and economic reactions to policy implementation, are all benefits that come along with a member who has prior experience and knowledge with a particular policy area. 
+
+These two leading benefits that caucuses may receive from finking on seniority have some powerful impacts on the decision making of assignments. Figure \ref{Fig1} demonstrates a very simple formal model including the payoffs included for both the caucus (l) and the individual member wanting an assignment (M) to begin in a bargain for the position they desire. The game starts with a nature node that specifies where on a continuum of probability that the member will be useful for the caucus as a policy and electoral maximizer ($\beta$). The party seeks a scenario wherein the party assigns leaders that maximizes the caucuses total available benefits: 
+\begin{equation} \label{eq.1}
+l_\beta = \DeclareMathOperator{argMax}{(\beta)}
+\end{equation}
+
+
+The individual member seeks the opposite scenario. They seek to provide just enough benefits to capture an assignment that they want:
+
+\begin{equation} \label{eq.2}
+M_\beta = \DeclareMathOperator{argMin}{(\beta)}
+\end{equation}
+
+With this established, we can derive a simple model to determine in what scenarios the bargain meets the conditions in Equations \ref{eq.1} and \ref{eq.2} to create an equilibrium.
+
+\begin{figure}
+% Node styles
+\begin{center}
+
+\tikzset{
+% Two node styles for game trees: solid and hollow
+solid node/.style={circle,draw,inner sep=1.5,fill=black},
+hollow node/.style={circle,draw,inner sep=1.5,fill=white}
+
+}
+
+\begin{tikzpicture}[scale=1.5,font=\footnotesize] 
+
+% Specify spacing for each level of the tree
+\tikzstyle{level 1}=[level distance=15mm,sibling distance=15mm]
+\tikzstyle{level 2}=[level distance=10mm,sibling distance=35mm]
+\tikzstyle{level 3}=[level distance=10mm,sibling distance=12mm]
+\tikzstyle{level 4}=[level distance=10mm,sibling distance=12mm]
+% The Tree
+\node(0)[solid node,label=above:{$N$}]{} 
+child{node(1)[solid node, white]{}
+}
+child{[white] node(2)[solid node, yshift=-35]{$M$} %note that you need to adjust the yshift if you change the sibling distance
+child{[black] node(4)[solid node, label=above:{$l$}]{} 
+child{[black] node(6)[solid node, label=below:{$(\beta, 1)$}]{} edge from parent node[left]{$A$}}
+child{[black] node(6)[solid node, label=below:{$(1-\delta,0 - d)$}]{} edge from parent node[left]{$\tilde A$}}
+edge from parent node[left]{$C$}
+}
+child{[black] node(5)[solid node, label=below:{$(1-\delta, 0)$}]{}
+edge from parent node[right]{$\tilde C$}
+}
+ edge from parent node[black, xshift=0,yshift=-42]{$\beta\epsilon[0,1]$} %note that you need to adjust the yshift if you change the level distance
+}
+child{node(3)[solid node, white]{}
+}; 
+
+% information set
+    \draw[bend right](1)to(3);
+\end{tikzpicture}
+\caption{Incentives for finking on seniority system}	 
+\label{Fig1}
+\end{center}
+\end{figure}
+
+Figure \ref{Fig1} presents the payoff structure where $N$ dictates what benefits ($\beta$) the individual member, $M$, provides to the caucus, $l$. $M$, knowing the value of $\beta$ may choose to either campaign, $C$, or to not campaign, $\tilde C$. If $M$ chooses $\tilde C$, then it is likely due to the fact that they know they cannot meet the minimum requirement, $\beta^*$, that $l$ requires to even consider them for a position. If they do not campaign, which is certainly suboptimal for $M$ since they get nothing from this scenario if they are interested in leadership positions. Likewise, $l$ does not lose too much from this situation, either. They are left with some uncertainty, $\delta$, as to how well the alternative selections for the assignment are in providing a high $\beta$; however, this is the status quo that $l$ is accustomed to. 
+
+More interestingly, we see the subgame where $M$ chooses $C$. In this condition, the value of $\beta$ is crucially important given the assumption communicated in Equations \ref{eq.1} and \ref{eq.2}. In the scenario where $\beta$ equals or it is asymptotically 0, $\lim_{\beta\to\ 0$, and $M$ still chooses $C$, then it is likely that $l$ will select the status quo, which is to reject, $\tilde A$, $M$'s offer and $M$ gets $0-d$, the status quo with some reputational cost, $d$. In a scenario where $\lim_{\beta\to\ 1$, then $l$ is likely to accept $M$'s offer and both get what they want; they meet the conditions in Equations \ref{eq.1} and \ref{eq.2}. The balance of the game lies in $\beta$. This indicates that $M$ must credibly demonstrate $\beta$. In most cases, seniority acts as the signal as to whether $M$ credibly possess enough benefits. When $M$ believes that they likely meet $l$'s needs, $\beta^*$, then this is the scenario whereby $M$ is most likely to choose $C$ and make an offer. Otherwise, when $M$ does not meet $l$'s requirement of $\beta^*$, then $M$ is likely to choose the status quo which is to $\tilde C$ as compared to the status quo with some reputational costs for wasting the leadership and the caucuses' time for offering a leadership role that they are ill-equipped for. 
+
+The game demonstrates a couple of interesting phenomenon. The first is that the seniority system is certainly preferred over finking on it. In most cases, $M$ and $l$ prefer to uphold and support the status quo. Second, the game demonstrates that the power is held within $l$. $M$ has power to the extent that they can control and correctly signal $\beta$, which is not very much when they have just ascended to office. The game does demonstrate, though, that more experienced and professional politicians and lawmakers are what spark a deviation from the status quo. This supports prevailing hypotheses that many MC's are increasingly seeking a career in politics. It also demonstrates that having characteristics for which the party wants, is a sufficient but increasingly necessary condition for new politicians to become more influential in the House of Representatives. As discussed earlier in the paper, these could be ideological extremity, being young or a minority if you are a Democrat, being staunchly socially conservative as we saw with the Republicans and the Tea Party Movement, as examples. 
+
 \section*{Empirical Evidence for Reduction in Seniority}
 
 My formal model sought to detail a comprehensive theory to the incentive structure for individual members of congress and for those of the caucuses' interest via proxy of the leadership. It is quite challenging to test this theory empirically. Unlike the work studying American political attitudes and behavior, I am limited to observational data only; I am unable to collect and utilize data which provide information about the motivations of the nation's top politicians. Any data that are available are observational and are, at best, inferential. To not spend too much time on analyzing data which are limited, my claim here is that these data are not support for my theory. Rather, these data are descriptive and intend to demonstrate whether some of the assumptions I make in my game theoretic model have any empirical founding.
@@ -94,7 +163,9 @@ These figures so far only demonstrate the demographics of the entire Congress an
 
 \includegraphics[height=250,width=400]{../figures/avg-house-seniority-macro.png}
 
-These descriptive data demonstrate that there is a downward trend in holding any leadership position and a seniority in the House of Representatives. This graphic, while simple, provides some descriptive evidence that scholarly efforts to an increased attention of Congressional assignments are warrented. Specifically, it presents some basic evidence that there might not be a perfect correlation between seniority and leadership assignment and perhaps this correlation is decreasing over time as well. This figure also demonstrates that a claim of plausibly statistically significant alternative explanations besides seniority for leadership assignment in the House has empirical support. 
+These descriptive data demonstrate that there is a downward trend in holding any leadership position and the number of years on has been in office in the House of Representatives. This graphic, while simple, provides some descriptive evidence that scholarly efforts to an increased attention of Congressional assignments are warrented. Specifically, it presents some basic evidence that there might not be a perfect correlation between seniority and leadership assignment and perhaps this correlation is decreasing over time as well. This figure also demonstrates that a claim of plausibly statistically significant alternative explanations besides seniority for leadership assignment in the House has empirical support. 
+
+It is important here to not conflate the number of terms with seniority violations, however. To be sure to not overstate the takeaways a reader should have from the figure, it the differences between seniority and term length should be identified before moving on. When scholars operationalize seniority, they are referring to the length of time \textit{within} the committee or subcommittee and not overall length of time in the chamber. The figure presented here, presents time in the chamber and not within assignments. This is one of the key challenges with quantifying the seniority system - the need to identify violations of seniority within subcommittees and committees as opposed to using the more widely available data on the chambers as a whole. 
 
 \section*{Discussion and Conclusion}
 

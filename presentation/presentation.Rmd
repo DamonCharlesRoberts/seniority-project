@@ -77,7 +77,11 @@ style_duo(primary_color = "#27241D", secondary_color = "#a3f5e6")
 * Those who provide benefits that are assumed to be perfectly correlated with more experience in Congress can rise to power without being more senior.
   * For example, a young democrat like AOC may signal the Democrat's willingness to embrace young politicians and activists
   * Another example, Lawyers and/or former lobbyists, academics, and policy experts who have relevant and a deep understanding of a particular and relevant area to a policy issue within a committee's jurisdiction
-  
+
+---
+
+![Game Theoretical Model](fig1.png)
+
 ---
 
 # Empirically What Does Congress Look Like (Eventual Empirical Analysis)
