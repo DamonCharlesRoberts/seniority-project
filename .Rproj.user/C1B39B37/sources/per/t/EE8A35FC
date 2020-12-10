@@ -3,7 +3,7 @@
     "path": "~/Dropbox/seniority-project/code/2_agg-descriptive-analysis_index.R",
     "project_path": "code/2_agg-descriptive-analysis_index.R",
     "type": "r_source",
-    "hash": "1274629741",
+    "hash": "635169154",
     "contents": "",
     "dirty": false,
     "created": 1602977542507.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "46,22",
-        "scrollLine": "42"
+        "cursorPosition": "55,0",
+        "scrollLine": "36"
     },
     "folds": "",
-    "lastKnownWriteTime": 1604631088,
+    "lastKnownWriteTime": 1607556270,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1604631088547,
+    "last_content_update": 1607556270775,
     "read_only": false,
     "read_only_alternatives": []
 }
